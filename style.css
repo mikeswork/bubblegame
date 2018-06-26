@@ -1,0 +1,66 @@
+html,
+body {
+  margin: 0;
+  background-color: #555;
+}
+
+#controlpanel {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(50, 50, 50, 0.8);
+  text-transform: uppercase;
+  font-family: arial, sans-serif;
+  color: #fff;
+}
+
+.controlpanelcontent {
+  margin: 0 auto; 
+  padding: 5px 0 5px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.slidercontainer {
+  float: left; 
+  padding: 9px 0 0 0
+}
+
+.sliderlabel {
+  margin: 0 0 2px 2px;
+  text-align: left;
+  font-size: 0.85em;
+  user-select: none;
+}
+
+.slider {
+  width: 100%;
+  direction: rtl;
+}
+
+.scoretext {
+  float: right;
+  margin: 12px 0;
+  min-width: 40px;
+  padding: 5px 8px;
+  border: 1px dotted #bbb;
+  text-align: center;
+  user-select: none;
+}
+
+.startbutton {
+  margin: 10px 0;
+  width: 100px;
+  height: 34px;
+  clear: both;
+  font-family: arial, sans-serif;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.dot {
+  position: fixed;
+  border-radius: 50%;
+  background-color: #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}

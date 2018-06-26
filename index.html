@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bubble Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="bodyLoaded()">
+  <script src="index.js"></script>
+  
+  <div id="controlpanel">
+    <div class="controlpanelcontent">  
+      
+      <div class="slidercontainer">
+        <div class="sliderlabel">Speed:</div>
+        <input id="speedslider" class="slider" type="range" min="10" max="100" value="20" onchange="changeSpeed()">
+      </div>
+      
+      <button id="start" class="startbutton" onclick="startOrPause()">Pause</button>
+      
+      <div id="score" class="scoretext">0</div>
+      
+    </div>
+  </div>
+  
+  <div id="content"/>
+
+</body>
+</html>
